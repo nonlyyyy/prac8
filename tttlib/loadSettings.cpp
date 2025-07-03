@@ -13,7 +13,7 @@ Settings loadSettings() {
         std::getline(file, settings.player1);
         std::getline(file, settings.player2);
     } else {
-        std::cout << "Unable to open settings file. Using default settings." << std::endl;
+        std::cout << "Unable to open settings file. Use." << std::endl;
     }
     file.close();
     return settings;
