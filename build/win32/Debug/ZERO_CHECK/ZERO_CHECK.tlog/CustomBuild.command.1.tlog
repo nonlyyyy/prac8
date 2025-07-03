@@ -1,0 +1,10 @@
+^D:\TICTACTOE_LIBRARY_READY\BUILD\CMAKEFILES\60830247CE396EE71DD497BE72E68AD3\GENERATE.STAMP.RULE
+setlocal
+D:\bin\cmake.exe -SD:/tictactoe_library_ready -BD:/tictactoe_library_ready/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/tictactoe_library_ready/build/TicTacToe.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

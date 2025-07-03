@@ -1,0 +1,8 @@
+{
+	"InstallScripts" : 
+	[
+		"D:/tictactoe_library_ready/build/cmake_install.cmake",
+		"D:/tictactoe_library_ready/build/tttlib/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

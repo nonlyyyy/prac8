@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|win32">
+      <Configuration>Debug</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|win32">
+      <Configuration>Release</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{55462F37-41BD-35BF-8ABA-E74DC47DA400}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>win32</Platform>
+    <ProjectName>tictactoe</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">D:\tictactoe_library_ready\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">tictactoe.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">tictactoe</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">D:\tictactoe_library_ready\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|win32'">tictactoe.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|win32'">tictactoe</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">D:\tictactoe_library_ready\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">tictactoe.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">tictactoe</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">D:\tictactoe_library_ready\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">tictactoe.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">tictactoe</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\tictactoe_library_ready\tttlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\tictactoe_library_ready\tttlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\tictactoe_library_ready\tttlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>tttlib\Debug\tttlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/tictactoe_library_ready/build/Debug/tictactoe.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/tictactoe_library_ready/build/Debug/tictactoe.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\tictactoe_library_ready\tttlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\tictactoe_library_ready\tttlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\tictactoe_library_ready\tttlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>tttlib\Release\tttlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/tictactoe_library_ready/build/Release/tictactoe.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/tictactoe_library_ready/build/Release/tictactoe.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\tictactoe_library_ready\tttlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\tictactoe_library_ready\tttlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\tictactoe_library_ready\tttlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>tttlib\MinSizeRel\tttlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/tictactoe_library_ready/build/MinSizeRel/tictactoe.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/tictactoe_library_ready/build/MinSizeRel/tictactoe.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\tictactoe_library_ready\tttlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MinimalRebuild></MinimalRebuild>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <SupportJustMyCode></SupportJustMyCode>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\tictactoe_library_ready\tttlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\tictactoe_library_ready\tttlib\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>tttlib\RelWithDebInfo\tttlib.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/tictactoe_library_ready/build/RelWithDebInfo/tictactoe.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/tictactoe_library_ready/build/RelWithDebInfo/tictactoe.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\tictactoe_library_ready\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">Building Custom Rule D:/tictactoe_library_ready/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">setlocal
+D:\bin\cmake.exe -SD:/tictactoe_library_ready -BD:/tictactoe_library_ready/build --check-stamp-file D:/tictactoe_library_ready/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">D:\share\cmake-4.0\Modules\CMakeCInformation.cmake;D:\share\cmake-4.0\Modules\CMakeCXXInformation.cmake;D:\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;D:\share\cmake-4.0\Modules\CMakeGenericSystem.cmake;D:\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake;D:\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;D:\share\cmake-4.0\Modules\CMakeRCInformation.cmake;D:\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake;D:\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake;D:\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\share\cmake-4.0\Modules\Compiler\MSVC-C.cmake;D:\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake;D:\share\cmake-4.0\Modules\Compiler\MSVC.cmake;D:\share\cmake-4.0\Modules\Internal\CMakeCLinkerInformation.cmake;D:\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\share\cmake-4.0\Modules\Linker\MSVC-C.cmake;D:\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake;D:\share\cmake-4.0\Modules\Linker\MSVC.cmake;D:\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;D:\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake;D:\share\cmake-4.0\Modules\Platform\Windows-MSVC-C.cmake;D:\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake;D:\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;D:\share\cmake-4.0\Modules\Platform\Windows.cmake;D:\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake;D:\tictactoe_library_ready\build\CMakeFiles\4.0.3\CMakeCCompiler.cmake;D:\tictactoe_library_ready\build\CMakeFiles\4.0.3\CMakeCXXCompiler.cmake;D:\tictactoe_library_ready\build\CMakeFiles\4.0.3\CMakeRCCompiler.cmake;D:\tictactoe_library_ready\build\CMakeFiles\4.0.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">D:\tictactoe_library_ready\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|win32'">Building Custom Rule D:/tictactoe_library_ready/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|win32'">setlocal
+D:\bin\cmake.exe -SD:/tictactoe_library_ready -BD:/tictactoe_library_ready/build --check-stamp-file D:/tictactoe_library_ready/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">D:\share\cmake-4.0\Modules\CMakeCInformation.cmake;D:\share\cmake-4.0\Modules\CMakeCXXInformation.cmake;D:\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;D:\share\cmake-4.0\Modules\CMakeGenericSystem.cmake;D:\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake;D:\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;D:\share\cmake-4.0\Modules\CMakeRCInformation.cmake;D:\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake;D:\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake;D:\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\share\cmake-4.0\Modules\Compiler\MSVC-C.cmake;D:\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake;D:\share\cmake-4.0\Modules\Compiler\MSVC.cmake;D:\share\cmake-4.0\Modules\Internal\CMakeCLinkerInformation.cmake;D:\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\share\cmake-4.0\Modules\Linker\MSVC-C.cmake;D:\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake;D:\share\cmake-4.0\Modules\Linker\MSVC.cmake;D:\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;D:\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake;D:\share\cmake-4.0\Modules\Platform\Windows-MSVC-C.cmake;D:\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake;D:\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;D:\share\cmake-4.0\Modules\Platform\Windows.cmake;D:\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake;D:\tictactoe_library_ready\build\CMakeFiles\4.0.3\CMakeCCompiler.cmake;D:\tictactoe_library_ready\build\CMakeFiles\4.0.3\CMakeCXXCompiler.cmake;D:\tictactoe_library_ready\build\CMakeFiles\4.0.3\CMakeRCCompiler.cmake;D:\tictactoe_library_ready\build\CMakeFiles\4.0.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|win32'">D:\tictactoe_library_ready\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">Building Custom Rule D:/tictactoe_library_ready/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">setlocal
+D:\bin\cmake.exe -SD:/tictactoe_library_ready -BD:/tictactoe_library_ready/build --check-stamp-file D:/tictactoe_library_ready/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">D:\share\cmake-4.0\Modules\CMakeCInformation.cmake;D:\share\cmake-4.0\Modules\CMakeCXXInformation.cmake;D:\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;D:\share\cmake-4.0\Modules\CMakeGenericSystem.cmake;D:\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake;D:\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;D:\share\cmake-4.0\Modules\CMakeRCInformation.cmake;D:\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake;D:\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake;D:\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\share\cmake-4.0\Modules\Compiler\MSVC-C.cmake;D:\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake;D:\share\cmake-4.0\Modules\Compiler\MSVC.cmake;D:\share\cmake-4.0\Modules\Internal\CMakeCLinkerInformation.cmake;D:\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\share\cmake-4.0\Modules\Linker\MSVC-C.cmake;D:\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake;D:\share\cmake-4.0\Modules\Linker\MSVC.cmake;D:\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;D:\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake;D:\share\cmake-4.0\Modules\Platform\Windows-MSVC-C.cmake;D:\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake;D:\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;D:\share\cmake-4.0\Modules\Platform\Windows.cmake;D:\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake;D:\tictactoe_library_ready\build\CMakeFiles\4.0.3\CMakeCCompiler.cmake;D:\tictactoe_library_ready\build\CMakeFiles\4.0.3\CMakeCXXCompiler.cmake;D:\tictactoe_library_ready\build\CMakeFiles\4.0.3\CMakeRCCompiler.cmake;D:\tictactoe_library_ready\build\CMakeFiles\4.0.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">D:\tictactoe_library_ready\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">Building Custom Rule D:/tictactoe_library_ready/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">setlocal
+D:\bin\cmake.exe -SD:/tictactoe_library_ready -BD:/tictactoe_library_ready/build --check-stamp-file D:/tictactoe_library_ready/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">D:\share\cmake-4.0\Modules\CMakeCInformation.cmake;D:\share\cmake-4.0\Modules\CMakeCXXInformation.cmake;D:\share\cmake-4.0\Modules\CMakeCommonLanguageInclude.cmake;D:\share\cmake-4.0\Modules\CMakeGenericSystem.cmake;D:\share\cmake-4.0\Modules\CMakeInitializeConfigs.cmake;D:\share\cmake-4.0\Modules\CMakeLanguageInformation.cmake;D:\share\cmake-4.0\Modules\CMakeRCInformation.cmake;D:\share\cmake-4.0\Modules\CMakeSystemSpecificInformation.cmake;D:\share\cmake-4.0\Modules\CMakeSystemSpecificInitialize.cmake;D:\share\cmake-4.0\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\share\cmake-4.0\Modules\Compiler\MSVC-C.cmake;D:\share\cmake-4.0\Modules\Compiler\MSVC-CXX.cmake;D:\share\cmake-4.0\Modules\Compiler\MSVC.cmake;D:\share\cmake-4.0\Modules\Internal\CMakeCLinkerInformation.cmake;D:\share\cmake-4.0\Modules\Internal\CMakeCXXLinkerInformation.cmake;D:\share\cmake-4.0\Modules\Internal\CMakeCommonLinkerInformation.cmake;D:\share\cmake-4.0\Modules\Linker\MSVC-C.cmake;D:\share\cmake-4.0\Modules\Linker\MSVC-CXX.cmake;D:\share\cmake-4.0\Modules\Linker\MSVC.cmake;D:\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-C.cmake;D:\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC-CXX.cmake;D:\share\cmake-4.0\Modules\Platform\Linker\Windows-MSVC.cmake;D:\share\cmake-4.0\Modules\Platform\Windows-Initialize.cmake;D:\share\cmake-4.0\Modules\Platform\Windows-MSVC-C.cmake;D:\share\cmake-4.0\Modules\Platform\Windows-MSVC-CXX.cmake;D:\share\cmake-4.0\Modules\Platform\Windows-MSVC.cmake;D:\share\cmake-4.0\Modules\Platform\Windows.cmake;D:\share\cmake-4.0\Modules\Platform\WindowsPaths.cmake;D:\tictactoe_library_ready\build\CMakeFiles\4.0.3\CMakeCCompiler.cmake;D:\tictactoe_library_ready\build\CMakeFiles\4.0.3\CMakeCXXCompiler.cmake;D:\tictactoe_library_ready\build\CMakeFiles\4.0.3\CMakeRCCompiler.cmake;D:\tictactoe_library_ready\build\CMakeFiles\4.0.3\CMakeSystem.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">D:\tictactoe_library_ready\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\tictactoe_library_ready\src\main.cpp" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="D:\tictactoe_library_ready\build\ZERO_CHECK.vcxproj">
+      <Project>{1052BFB3-D6B4-3590-8CA9-7A28D75948C1}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\tictactoe_library_ready\build\tttlib\tttlib.vcxproj">
+      <Project>{005FA335-805A-3603-8BFB-9B75B0C536FB}</Project>
+      <Name>tttlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,4 @@
+D:/tictactoe_library_ready/build/CMakeFiles/tictactoe.dir
+D:/tictactoe_library_ready/build/CMakeFiles/ALL_BUILD.dir
+D:/tictactoe_library_ready/build/CMakeFiles/ZERO_CHECK.dir
+D:/tictactoe_library_ready/build/tttlib/CMakeFiles/tttlib.dir
