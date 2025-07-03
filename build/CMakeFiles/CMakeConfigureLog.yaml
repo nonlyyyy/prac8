@@ -24,7 +24,7 @@ events:
       The output was:
       0
       ╨Æ╨╡╤Ç╤ü╨╕╤Å MSBuild 17.13.19+0d9f5a35a ╨┤╨╗╤Å .NET Framework
-      ╨í╨▒╨╛╤Ç╨║╨░ ╨╜╨░╤ç╨░╤é╨░ 03.07.2025 21:41:25.
+      ╨í╨▒╨╛╤Ç╨║╨░ ╨╜╨░╤ç╨░╤é╨░ 03.07.2025 21:52:10.
       
       ╨ƒ╤Ç╨╛╨╡╨║╤é "D:\\tictactoe_library_ready\\build\\CMakeFiles\\4.0.3\\CompilerIdC\\CompilerIdC.vcxproj" ╨▓ ╤â╨╖╨╗╨╡ 1 (╤å╨╡╨╗╨╡╨▓╤ï╨╡ ╨╛╨▒╤è╨╡╨║╤é╤ï ╨┐╨╛ ╤â╨╝╨╛╨╗╤ç╨░╨╜╨╕╤Ä).
       PrepareForBuild:
@@ -35,15 +35,15 @@ events:
         ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild", ╤é╨░╨║ ╨║╨░╨║ ╨▒╤ï╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
         ╨₧╨▒╤Ç╨░╤ë╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild".
       ClCompile:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /analyze- /FC /errorReport:queue CMakeCCompilerId.c
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
         CMakeCCompilerId.c
       Link:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCCompilerId.obj
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
         CompilerIdC.vcxproj -> D:\\tictactoe_library_ready\\build\\CMakeFiles\\4.0.3\\CompilerIdC\\CompilerIdC.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
         :VCEnd
-        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x86\\cl.exe
+        CMAKE_C_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
       FinalizeBuildStatus:
         ╨ñ╨░╨╣╨╗ "Debug\\CompilerIdC.tlog\\unsuccessfulbuild" ╤â╨┤╨░╨╗╤Å╨╡╤é╤ü╤Å.
         ╨₧╨▒╤Ç╨░╤ë╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate".
@@ -53,7 +53,7 @@ events:
           ╨ƒ╤Ç╨╡╨┤╤â╨┐╤Ç╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
           ╨₧╤ê╨╕╨▒╨╛╨║: 0
       
-      ╨ƒ╤Ç╨╛╤ê╨╗╨╛ ╨▓╤Ç╨╡╨╝╨╡╨╜╨╕ 00:00:01.21
+      ╨ƒ╤Ç╨╛╤ê╨╗╨╛ ╨▓╤Ç╨╡╨╝╨╡╨╜╨╕ 00:00:01.60
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -79,7 +79,7 @@ events:
       The output was:
       0
       ╨Æ╨╡╤Ç╤ü╨╕╤Å MSBuild 17.13.19+0d9f5a35a ╨┤╨╗╤Å .NET Framework
-      ╨í╨▒╨╛╤Ç╨║╨░ ╨╜╨░╤ç╨░╤é╨░ 03.07.2025 21:41:27.
+      ╨í╨▒╨╛╤Ç╨║╨░ ╨╜╨░╤ç╨░╤é╨░ 03.07.2025 21:52:12.
       
       ╨ƒ╤Ç╨╛╨╡╨║╤é "D:\\tictactoe_library_ready\\build\\CMakeFiles\\4.0.3\\CompilerIdCXX\\CompilerIdCXX.vcxproj" ╨▓ ╤â╨╖╨╗╨╡ 1 (╤å╨╡╨╗╨╡╨▓╤ï╨╡ ╨╛╨▒╤è╨╡╨║╤é╤ï ╨┐╨╛ ╤â╨╝╨╛╨╗╤ç╨░╨╜╨╕╤Ä).
       PrepareForBuild:
@@ -90,15 +90,15 @@ events:
         ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild", ╤é╨░╨║ ╨║╨░╨║ ╨▒╤ï╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
         ╨₧╨▒╤Ç╨░╤ë╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild".
       ClCompile:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /Oy- /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /analyze- /FC /errorReport:queue CMakeCXXCompilerId.cpp
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
         CMakeCXXCompilerId.cpp
       Link:
-        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X86 /SAFESEH Debug\\CMakeCXXCompilerId.obj
+        C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdCXX.lib" /MACHINE:X64 Debug\\CMakeCXXCompilerId.obj
         CompilerIdCXX.vcxproj -> D:\\tictactoe_library_ready\\build\\CMakeFiles\\4.0.3\\CompilerIdCXX\\CompilerIdCXX.exe
       PostBuildEvent:
         for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
         :VCEnd
-        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x86\\cl.exe
+        CMAKE_CXX_COMPILER=C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.43.34808\\bin\\Hostx64\\x64\\cl.exe
       FinalizeBuildStatus:
         ╨ñ╨░╨╣╨╗ "Debug\\CompilerIdCXX.tlog\\unsuccessfulbuild" ╤â╨┤╨░╨╗╤Å╨╡╤é╤ü╤Å.
         ╨₧╨▒╤Ç╨░╤ë╨╡╨╜╨╕╨╡ ╨║ "Debug\\CompilerIdCXX.tlog\\CompilerIdCXX.lastbuildstate".
@@ -108,7 +108,7 @@ events:
           ╨ƒ╤Ç╨╡╨┤╤â╨┐╤Ç╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
           ╨₧╤ê╨╕╨▒╨╛╨║: 0
       
-      ╨ƒ╤Ç╨╛╤ê╨╗╨╛ ╨▓╤Ç╨╡╨╝╨╡╨╜╨╕ 00:00:01.34
+      ╨ƒ╤Ç╨╛╤ê╨╗╨╛ ╨▓╤Ç╨╡╨╝╨╡╨╜╨╕ 00:00:01.08
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -127,50 +127,50 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "D:/tictactoe_library_ready/build/CMakeFiles/CMakeScratch/TryCompile-cjbnzt"
-      binary: "D:/tictactoe_library_ready/build/CMakeFiles/CMakeScratch/TryCompile-cjbnzt"
+      source: "D:/tictactoe_library_ready/build/CMakeFiles/CMakeScratch/TryCompile-38k72n"
+      binary: "D:/tictactoe_library_ready/build/CMakeFiles/CMakeScratch/TryCompile-38k72n"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/tictactoe_library_ready/build/CMakeFiles/CMakeScratch/TryCompile-cjbnzt'
+        Change Dir: 'D:/tictactoe_library_ready/build/CMakeFiles/CMakeScratch/TryCompile-38k72n'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7cd20.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_627ff.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         ╨Æ╨╡╤Ç╤ü╨╕╤Å MSBuild 17.13.19+0d9f5a35a ╨┤╨╗╤Å .NET Framework
-        ╨í╨▒╨╛╤Ç╨║╨░ ╨╜╨░╤ç╨░╤é╨░ 03.07.2025 21:41:29.
+        ╨í╨▒╨╛╤Ç╨║╨░ ╨╜╨░╤ç╨░╤é╨░ 03.07.2025 21:52:14.
         
-        ╨ƒ╤Ç╨╛╨╡╨║╤é "D:\\tictactoe_library_ready\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cjbnzt\\cmTC_7cd20.vcxproj" ╨▓ ╤â╨╖╨╗╨╡ 1 (╤å╨╡╨╗╨╡╨▓╤ï╨╡ ╨╛╨▒╤è╨╡╨║╤é╤ï ╨┐╨╛ ╤â╨╝╨╛╨╗╤ç╨░╨╜╨╕╤Ä).
+        ╨ƒ╤Ç╨╛╨╡╨║╤é "D:\\tictactoe_library_ready\\build\\CMakeFiles\\CMakeScratch\\TryCompile-38k72n\\cmTC_627ff.vcxproj" ╨▓ ╤â╨╖╨╗╨╡ 1 (╤å╨╡╨╗╨╡╨▓╤ï╨╡ ╨╛╨▒╤è╨╡╨║╤é╤ï ╨┐╨╛ ╤â╨╝╨╛╨╗╤ç╨░╨╜╨╕╤Ä).
         PrepareForBuild:
-          ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤é╨░╨╗╨╛╨│╨░ "cmTC_7cd20.dir\\Debug\\".
+          ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤é╨░╨╗╨╛╨│╨░ "cmTC_627ff.dir\\Debug\\".
           ╨í╤é╤Ç╤â╨║╤é╤â╤Ç╨╕╤Ç╨╛╨▓╨░╨╜╨╜╤ï╨╣ ╨▓╤ï╨▓╨╛╨┤ ╨▓╨║╨╗╤Ä╤ç╨╡╨╜. ╨ñ╨╛╤Ç╨╝╨░╤é╨╕╤Ç╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤ü╤é╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤Å╤é╨╛╤Ç╨░ ╨▒╤â╨┤╨╡╤é ╨╛╤é╤Ç╨░╨╢╨░╤é╤î ╨╕╨╡╤Ç╨░╤Ç╤à╨╕╤Ä ╨╛╤ê╨╕╨▒╨╛╨║. ╨ƒ╨╛╨┤╤Ç╨╛╨▒╨╜╨╡╨╡ ╤ü╨╝. https://aka.ms/cpp/structured-output.
-          ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤é╨░╨╗╨╛╨│╨░ "D:\\tictactoe_library_ready\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cjbnzt\\Debug\\".
-          ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤é╨░╨╗╨╛╨│╨░ "cmTC_7cd20.dir\\Debug\\cmTC_7cd20.tlog\\".
+          ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤é╨░╨╗╨╛╨│╨░ "D:\\tictactoe_library_ready\\build\\CMakeFiles\\CMakeScratch\\TryCompile-38k72n\\Debug\\".
+          ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤é╨░╨╗╨╛╨│╨░ "cmTC_627ff.dir\\Debug\\cmTC_627ff.tlog\\".
         InitializeBuildStatus:
-          ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_7cd20.dir\\Debug\\cmTC_7cd20.tlog\\unsuccessfulbuild", ╤é╨░╨║ ╨║╨░╨║ ╨▒╤ï╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
-          ╨₧╨▒╤Ç╨░╤ë╨╡╨╜╨╕╨╡ ╨║ "cmTC_7cd20.dir\\Debug\\cmTC_7cd20.tlog\\unsuccessfulbuild".
+          ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_627ff.dir\\Debug\\cmTC_627ff.tlog\\unsuccessfulbuild", ╤é╨░╨║ ╨║╨░╨║ ╨▒╤ï╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨₧╨▒╤Ç╨░╤ë╨╡╨╜╨╕╨╡ ╨║ "cmTC_627ff.dir\\Debug\\cmTC_627ff.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7cd20.dir\\Debug\\\\" /Fd"cmTC_7cd20.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "D:\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
-          ╨₧╨┐╤é╨╕╨╝╨╕╨╖╨╕╤Ç╤â╤Ä╤ë╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤Å╤é╨╛╤Ç Microsoft (R) C/C++ ╨▓╨╡╤Ç╤ü╨╕╨╕ 19.43.34810 ╨┤╨╗╤Å x86
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_627ff.dir\\Debug\\\\" /Fd"cmTC_627ff.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          ╨₧╨┐╤é╨╕╨╝╨╕╨╖╨╕╤Ç╤â╤Ä╤ë╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤Å╤é╨╛╤Ç Microsoft (R) C/C++ ╨▓╨╡╤Ç╤ü╨╕╨╕ 19.43.34810 ╨┤╨╗╤Å x64
           (C) ╨Ü╨╛╤Ç╨┐╨╛╤Ç╨░╤å╨╕╤Å ╨£╨░╨╣╨║╤Ç╨╛╤ü╨╛╤ä╤é (Microsoft Corporation).  ╨Æ╤ü╨╡ ╨┐╤Ç╨░╨▓╨░ ╨╖╨░╤ë╨╕╤ë╨╡╨╜╤ï.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7cd20.dir\\Debug\\\\" /Fd"cmTC_7cd20.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /analyze- /errorReport:queue "D:\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_627ff.dir\\Debug\\\\" /Fd"cmTC_627ff.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "D:\\share\\cmake-4.0\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\tictactoe_library_ready\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cjbnzt\\Debug\\cmTC_7cd20.exe" /INCREMENTAL /ILK:"cmTC_7cd20.dir\\Debug\\cmTC_7cd20.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/tictactoe_library_ready/build/CMakeFiles/CMakeScratch/TryCompile-cjbnzt/Debug/cmTC_7cd20.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/tictactoe_library_ready/build/CMakeFiles/CMakeScratch/TryCompile-cjbnzt/Debug/cmTC_7cd20.lib" /MACHINE:X86  /machine:X86 cmTC_7cd20.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_7cd20.vcxproj -> D:\\tictactoe_library_ready\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cjbnzt\\Debug\\cmTC_7cd20.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\tictactoe_library_ready\\build\\CMakeFiles\\CMakeScratch\\TryCompile-38k72n\\Debug\\cmTC_627ff.exe" /INCREMENTAL /ILK:"cmTC_627ff.dir\\Debug\\cmTC_627ff.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/tictactoe_library_ready/build/CMakeFiles/CMakeScratch/TryCompile-38k72n/Debug/cmTC_627ff.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/tictactoe_library_ready/build/CMakeFiles/CMakeScratch/TryCompile-38k72n/Debug/cmTC_627ff.lib" /MACHINE:X64  /machine:x64 cmTC_627ff.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_627ff.vcxproj -> D:\\tictactoe_library_ready\\build\\CMakeFiles\\CMakeScratch\\TryCompile-38k72n\\Debug\\cmTC_627ff.exe
         FinalizeBuildStatus:
-          ╨ñ╨░╨╣╨╗ "cmTC_7cd20.dir\\Debug\\cmTC_7cd20.tlog\\unsuccessfulbuild" ╤â╨┤╨░╨╗╤Å╨╡╤é╤ü╤Å.
-          ╨₧╨▒╤Ç╨░╤ë╨╡╨╜╨╕╨╡ ╨║ "cmTC_7cd20.dir\\Debug\\cmTC_7cd20.tlog\\cmTC_7cd20.lastbuildstate".
-        ╨í╨▒╨╛╤Ç╨║╨░ ╨┐╤Ç╨╛╨╡╨║╤é╨░ "D:\\tictactoe_library_ready\\build\\CMakeFiles\\CMakeScratch\\TryCompile-cjbnzt\\cmTC_7cd20.vcxproj" ╨╖╨░╨▓╨╡╤Ç╤ê╨╡╨╜╨░ (╤å╨╡╨╗╨╡╨▓╤ï╨╡ ╨╛╨▒╤è╨╡╨║╤é╤ï ╨┐╨╛ ╤â╨╝╨╛╨╗╤ç╨░╨╜╨╕╤Ä).
+          ╨ñ╨░╨╣╨╗ "cmTC_627ff.dir\\Debug\\cmTC_627ff.tlog\\unsuccessfulbuild" ╤â╨┤╨░╨╗╤Å╨╡╤é╤ü╤Å.
+          ╨₧╨▒╤Ç╨░╤ë╨╡╨╜╨╕╨╡ ╨║ "cmTC_627ff.dir\\Debug\\cmTC_627ff.tlog\\cmTC_627ff.lastbuildstate".
+        ╨í╨▒╨╛╤Ç╨║╨░ ╨┐╤Ç╨╛╨╡╨║╤é╨░ "D:\\tictactoe_library_ready\\build\\CMakeFiles\\CMakeScratch\\TryCompile-38k72n\\cmTC_627ff.vcxproj" ╨╖╨░╨▓╨╡╤Ç╤ê╨╡╨╜╨░ (╤å╨╡╨╗╨╡╨▓╤ï╨╡ ╨╛╨▒╤è╨╡╨║╤é╤ï ╨┐╨╛ ╤â╨╝╨╛╨╗╤ç╨░╨╜╨╕╤Ä).
         
         ╨í╨▒╨╛╤Ç╨║╨░ ╤â╤ü╨┐╨╡╤ê╨╜╨╛ ╨╖╨░╨▓╨╡╤Ç╤ê╨╡╨╜╨░.
             ╨ƒ╤Ç╨╡╨┤╤â╨┐╤Ç╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
             ╨₧╤ê╨╕╨▒╨╛╨║: 0
         
-        ╨ƒ╤Ç╨╛╤ê╨╗╨╛ ╨▓╤Ç╨╡╨╝╨╡╨╜╨╕ 00:00:01.48
+        ╨ƒ╤Ç╨╛╤ê╨╗╨╛ ╨▓╤Ç╨╡╨╝╨╡╨╜╨╕ 00:00:00.89
         
       exitCode: 0
   -
@@ -183,7 +183,7 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.43.34808/bin/HostX64/x86/link.exe
+        linker tool for 'C': C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe
         implicit libs: []
         implicit objs: []
         implicit dirs: []
@@ -198,7 +198,7 @@ events:
       - "D:/share/cmake-4.0/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.43.34808/bin/HostX64/x86/link.exe" "-v"
+      Running the C compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.43.34810.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
   -
@@ -210,51 +210,51 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "D:/tictactoe_library_ready/build/CMakeFiles/CMakeScratch/TryCompile-9y8doc"
-      binary: "D:/tictactoe_library_ready/build/CMakeFiles/CMakeScratch/TryCompile-9y8doc"
+      source: "D:/tictactoe_library_ready/build/CMakeFiles/CMakeScratch/TryCompile-gzy1sy"
+      binary: "D:/tictactoe_library_ready/build/CMakeFiles/CMakeScratch/TryCompile-gzy1sy"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
-      CMAKE_EXE_LINKER_FLAGS: "/machine:X86"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'D:/tictactoe_library_ready/build/CMakeFiles/CMakeScratch/TryCompile-9y8doc'
+        Change Dir: 'D:/tictactoe_library_ready/build/CMakeFiles/CMakeScratch/TryCompile-gzy1sy'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_4c2ea.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Professional/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_9fe3a.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         ╨Æ╨╡╤Ç╤ü╨╕╤Å MSBuild 17.13.19+0d9f5a35a ╨┤╨╗╤Å .NET Framework
-        ╨í╨▒╨╛╤Ç╨║╨░ ╨╜╨░╤ç╨░╤é╨░ 03.07.2025 21:41:31.
+        ╨í╨▒╨╛╤Ç╨║╨░ ╨╜╨░╤ç╨░╤é╨░ 03.07.2025 21:52:16.
         
-        ╨ƒ╤Ç╨╛╨╡╨║╤é "D:\\tictactoe_library_ready\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9y8doc\\cmTC_4c2ea.vcxproj" ╨▓ ╤â╨╖╨╗╨╡ 1 (╤å╨╡╨╗╨╡╨▓╤ï╨╡ ╨╛╨▒╤è╨╡╨║╤é╤ï ╨┐╨╛ ╤â╨╝╨╛╨╗╤ç╨░╨╜╨╕╤Ä).
+        ╨ƒ╤Ç╨╛╨╡╨║╤é "D:\\tictactoe_library_ready\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gzy1sy\\cmTC_9fe3a.vcxproj" ╨▓ ╤â╨╖╨╗╨╡ 1 (╤å╨╡╨╗╨╡╨▓╤ï╨╡ ╨╛╨▒╤è╨╡╨║╤é╤ï ╨┐╨╛ ╤â╨╝╨╛╨╗╤ç╨░╨╜╨╕╤Ä).
         PrepareForBuild:
-          ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤é╨░╨╗╨╛╨│╨░ "cmTC_4c2ea.dir\\Debug\\".
+          ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤é╨░╨╗╨╛╨│╨░ "cmTC_9fe3a.dir\\Debug\\".
           ╨í╤é╤Ç╤â╨║╤é╤â╤Ç╨╕╤Ç╨╛╨▓╨░╨╜╨╜╤ï╨╣ ╨▓╤ï╨▓╨╛╨┤ ╨▓╨║╨╗╤Ä╤ç╨╡╨╜. ╨ñ╨╛╤Ç╨╝╨░╤é╨╕╤Ç╨╛╨▓╨░╨╜╨╕╨╡ ╨┤╨╕╨░╨│╨╜╨╛╤ü╤é╨╕╨║╨╕ ╨║╨╛╨╝╨┐╨╕╨╗╤Å╤é╨╛╤Ç╨░ ╨▒╤â╨┤╨╡╤é ╨╛╤é╤Ç╨░╨╢╨░╤é╤î ╨╕╨╡╤Ç╨░╤Ç╤à╨╕╤Ä ╨╛╤ê╨╕╨▒╨╛╨║. ╨ƒ╨╛╨┤╤Ç╨╛╨▒╨╜╨╡╨╡ ╤ü╨╝. https://aka.ms/cpp/structured-output.
-          ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤é╨░╨╗╨╛╨│╨░ "D:\\tictactoe_library_ready\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9y8doc\\Debug\\".
-          ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤é╨░╨╗╨╛╨│╨░ "cmTC_4c2ea.dir\\Debug\\cmTC_4c2ea.tlog\\".
+          ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤é╨░╨╗╨╛╨│╨░ "D:\\tictactoe_library_ready\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gzy1sy\\Debug\\".
+          ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ ╨║╨░╤é╨░╨╗╨╛╨│╨░ "cmTC_9fe3a.dir\\Debug\\cmTC_9fe3a.tlog\\".
         InitializeBuildStatus:
-          ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_4c2ea.dir\\Debug\\cmTC_4c2ea.tlog\\unsuccessfulbuild", ╤é╨░╨║ ╨║╨░╨║ ╨▒╤ï╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
-          ╨₧╨▒╤Ç╨░╤ë╨╡╨╜╨╕╨╡ ╨║ "cmTC_4c2ea.dir\\Debug\\cmTC_4c2ea.tlog\\unsuccessfulbuild".
+          ╨í╨╛╨╖╨┤╨░╨╜╨╕╨╡ "cmTC_9fe3a.dir\\Debug\\cmTC_9fe3a.tlog\\unsuccessfulbuild", ╤é╨░╨║ ╨║╨░╨║ ╨▒╤ï╨╗╨╛ ╨╖╨░╨┤╨░╨╜╨╛ "AlwaysCreate".
+          ╨₧╨▒╤Ç╨░╤ë╨╡╨╜╨╕╨╡ ╨║ "cmTC_9fe3a.dir\\Debug\\cmTC_9fe3a.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4c2ea.dir\\Debug\\\\" /Fd"cmTC_4c2ea.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "D:\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
-          ╨₧╨┐╤é╨╕╨╝╨╕╨╖╨╕╤Ç╤â╤Ä╤ë╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤Å╤é╨╛╤Ç Microsoft (R) C/C++ ╨▓╨╡╤Ç╤ü╨╕╨╕ 19.43.34810 ╨┤╨╗╤Å x86
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9fe3a.dir\\Debug\\\\" /Fd"cmTC_9fe3a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          ╨₧╨┐╤é╨╕╨╝╨╕╨╖╨╕╤Ç╤â╤Ä╤ë╨╕╨╣ ╨║╨╛╨╝╨┐╨╕╨╗╤Å╤é╨╛╤Ç Microsoft (R) C/C++ ╨▓╨╡╤Ç╤ü╨╕╨╕ 19.43.34810 ╨┤╨╗╤Å x64
           (C) ╨Ü╨╛╤Ç╨┐╨╛╤Ç╨░╤å╨╕╤Å ╨£╨░╨╣╨║╤Ç╨╛╤ü╨╛╤ä╤é (Microsoft Corporation).  ╨Æ╤ü╨╡ ╨┐╤Ç╨░╨▓╨░ ╨╖╨░╤ë╨╕╤ë╨╡╨╜╤ï.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4c2ea.dir\\Debug\\\\" /Fd"cmTC_4c2ea.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /analyze- /errorReport:queue "D:\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_9fe3a.dir\\Debug\\\\" /Fd"cmTC_9fe3a.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "D:\\share\\cmake-4.0\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x86\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\tictactoe_library_ready\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9y8doc\\Debug\\cmTC_4c2ea.exe" /INCREMENTAL /ILK:"cmTC_4c2ea.dir\\Debug\\cmTC_4c2ea.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/tictactoe_library_ready/build/CMakeFiles/CMakeScratch/TryCompile-9y8doc/Debug/cmTC_4c2ea.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/tictactoe_library_ready/build/CMakeFiles/CMakeScratch/TryCompile-9y8doc/Debug/cmTC_4c2ea.lib" /MACHINE:X86  /machine:X86 cmTC_4c2ea.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_4c2ea.vcxproj -> D:\\tictactoe_library_ready\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9y8doc\\Debug\\cmTC_4c2ea.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Professional\\VC\\Tools\\MSVC\\14.43.34808\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"D:\\tictactoe_library_ready\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gzy1sy\\Debug\\cmTC_9fe3a.exe" /INCREMENTAL /ILK:"cmTC_9fe3a.dir\\Debug\\cmTC_9fe3a.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/tictactoe_library_ready/build/CMakeFiles/CMakeScratch/TryCompile-gzy1sy/Debug/cmTC_9fe3a.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/tictactoe_library_ready/build/CMakeFiles/CMakeScratch/TryCompile-gzy1sy/Debug/cmTC_9fe3a.lib" /MACHINE:X64  /machine:x64 cmTC_9fe3a.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_9fe3a.vcxproj -> D:\\tictactoe_library_ready\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gzy1sy\\Debug\\cmTC_9fe3a.exe
         FinalizeBuildStatus:
-          ╨ñ╨░╨╣╨╗ "cmTC_4c2ea.dir\\Debug\\cmTC_4c2ea.tlog\\unsuccessfulbuild" ╤â╨┤╨░╨╗╤Å╨╡╤é╤ü╤Å.
-          ╨₧╨▒╤Ç╨░╤ë╨╡╨╜╨╕╨╡ ╨║ "cmTC_4c2ea.dir\\Debug\\cmTC_4c2ea.tlog\\cmTC_4c2ea.lastbuildstate".
-        ╨í╨▒╨╛╤Ç╨║╨░ ╨┐╤Ç╨╛╨╡╨║╤é╨░ "D:\\tictactoe_library_ready\\build\\CMakeFiles\\CMakeScratch\\TryCompile-9y8doc\\cmTC_4c2ea.vcxproj" ╨╖╨░╨▓╨╡╤Ç╤ê╨╡╨╜╨░ (╤å╨╡╨╗╨╡╨▓╤ï╨╡ ╨╛╨▒╤è╨╡╨║╤é╤ï ╨┐╨╛ ╤â╨╝╨╛╨╗╤ç╨░╨╜╨╕╤Ä).
+          ╨ñ╨░╨╣╨╗ "cmTC_9fe3a.dir\\Debug\\cmTC_9fe3a.tlog\\unsuccessfulbuild" ╤â╨┤╨░╨╗╤Å╨╡╤é╤ü╤Å.
+          ╨₧╨▒╤Ç╨░╤ë╨╡╨╜╨╕╨╡ ╨║ "cmTC_9fe3a.dir\\Debug\\cmTC_9fe3a.tlog\\cmTC_9fe3a.lastbuildstate".
+        ╨í╨▒╨╛╤Ç╨║╨░ ╨┐╤Ç╨╛╨╡╨║╤é╨░ "D:\\tictactoe_library_ready\\build\\CMakeFiles\\CMakeScratch\\TryCompile-gzy1sy\\cmTC_9fe3a.vcxproj" ╨╖╨░╨▓╨╡╤Ç╤ê╨╡╨╜╨░ (╤å╨╡╨╗╨╡╨▓╤ï╨╡ ╨╛╨▒╤è╨╡╨║╤é╤ï ╨┐╨╛ ╤â╨╝╨╛╨╗╤ç╨░╨╜╨╕╤Ä).
         
         ╨í╨▒╨╛╤Ç╨║╨░ ╤â╤ü╨┐╨╡╤ê╨╜╨╛ ╨╖╨░╨▓╨╡╤Ç╤ê╨╡╨╜╨░.
             ╨ƒ╤Ç╨╡╨┤╤â╨┐╤Ç╨╡╨╢╨┤╨╡╨╜╨╕╨╣: 0
             ╨₧╤ê╨╕╨▒╨╛╨║: 0
         
-        ╨ƒ╤Ç╨╛╤ê╨╗╨╛ ╨▓╤Ç╨╡╨╝╨╡╨╜╨╕ 00:00:01.06
+        ╨ƒ╤Ç╨╛╤ê╨╗╨╛ ╨▓╤Ç╨╡╨╝╨╡╨╜╨╕ 00:00:00.97
         
       exitCode: 0
   -
@@ -267,7 +267,7 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
-        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.43.34808/bin/HostX64/x86/link.exe
+        linker tool for 'CXX': C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe
         implicit libs: []
         implicit objs: []
         implicit dirs: []
@@ -282,7 +282,7 @@ events:
       - "D:/share/cmake-4.0/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
       - "CMakeLists.txt:2 (project)"
     message: |
-      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.43.34808/bin/HostX64/x86/link.exe" "-v"
+      Running the CXX compiler's linker: "C:/Program Files/Microsoft Visual Studio/2022/Professional/VC/Tools/MSVC/14.43.34808/bin/HostX64/x64/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.43.34810.0
       Copyright (C) Microsoft Corporation.  All rights reserved.
 ...

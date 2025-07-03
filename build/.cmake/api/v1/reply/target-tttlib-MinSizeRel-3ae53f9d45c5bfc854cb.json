@@ -4,7 +4,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/machine:X86",
+				"fragment" : "/machine:x64",
 				"role" : "flags"
 			}
 		]
@@ -12,7 +12,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "tttlib/RelWithDebInfo/tttlib.lib"
+			"path" : "tttlib/MinSizeRel/tttlib.lib"
 		}
 	],
 	"backtrace" : 1,
@@ -52,7 +52,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG"
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /O1 /Ob1 /DNDEBUG"
 				}
 			],
 			"includes" : 
